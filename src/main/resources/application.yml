@@ -1,0 +1,5 @@
+# Swagger
+swagger:
+  enabled: true
+  title: REST API
+  version: '@project.version@'
