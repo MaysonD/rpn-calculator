@@ -1,21 +1,18 @@
 package com.example.rpn.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.validation.constraints.NotEmpty;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Request {
 
+    @NotEmpty
     private String inputData;
-
-    public Request(String inputData) {
-        this.inputData = inputData;
-    }
-
-    public Request() {
-    }
-
-    public String getInputData() {
-        return inputData;
-    }
-
-    public void setInputData(String inputData) {
-        this.inputData = inputData;
-    }
 }

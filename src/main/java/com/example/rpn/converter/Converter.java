@@ -2,9 +2,7 @@ package com.example.rpn.converter;
 
 import java.util.Stack;
 
-public interface Calculator {
+public interface Converter {
 
     Stack<String> convert(String inputData);
-
-    double calculate(Stack<String> expression);
 }
